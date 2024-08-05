@@ -8,6 +8,7 @@
     --background:#0C0B08;
     --accentcolor:#DCCA87;
     --lorem-col:#AAA;
+    --aboutbackground: #040404;
 }
             /*fonts*/
         /* font-family: "Open Sans", sans-serif;
@@ -16,9 +17,11 @@
             font-family: "Cormorant Upright", serif;
         }
 .container{
-    width: 900px;
-    padding-inline: 15px;
+    width: 1332px;
+    padding-inline: 16px;
     margin-inline: auto;
+    display: flex;
+    align-items: center;
 }
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
@@ -35,9 +38,9 @@ img{
 }
 
 .header-container{
-    /* width: 1300px; */
-    width: fit-content;
-    padding-inline: 15px;
+    /* width: 1712px; */
+    width:fit-content;
+    padding-inline: 16px;
     margin-inline: auto;
     display: flex;
     align-items: center;
@@ -46,8 +49,8 @@ img{
     padding-block: 32px;
     background-color: var(--background);
 }
-.logo{
-    margin-right: 277px;
+.logo-link{
+    margin-right: 437px;
     color: var(--white);
     font-size: 44px;
     font-weight: 700;
@@ -55,17 +58,17 @@ img{
     letter-spacing: 1.76px;
     text-transform: uppercase;
     transition: ease-in-out .2s;
-}.logo:hover{
+}.logo-link:hover{
     color: var(--accentcolor);
 }
 .nav{
-    margin-right: 131px;
+    margin-right: 271px;
 }
 .nav-list{
     display: flex;
     gap: 32px;
 }
-.nav-item{
+.nav-link{
     color: var(--white);
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -74,7 +77,7 @@ img{
     letter-spacing: 0.64px;
     transition: ease-in-out 0.2s;
 }
-.nav-item:hover{
+.nav-link:hover{
     color: var(--accentcolor);
 }
 .nav-link::after{
@@ -93,10 +96,11 @@ img{
     align-items: center;
 }
 .r-nav-list{
+    align-items: center;
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
-.r-nav-item{
+.r-nav-link{
     color: var(--white);
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -105,7 +109,7 @@ img{
     letter-spacing: 0.8px;
     text-transform: capitalize;
     transition: ease-in-out .2s;
-}.r-nav-item:hover{
+}.r-nav-link:hover{
     color: var(--accentcolor);
 }
 .hero{
@@ -114,8 +118,8 @@ img{
     padding-bottom: 147px;
 }
 .h-container{
-    width: 1030px;
-    padding-inline: 15px;
+    width: 1332px;
+    padding-inline: 16px;
     margin-inline: auto;
     display: flex;
     align-items: center;
@@ -192,6 +196,87 @@ img{
         right: -20px;
         z-index: -1;
 }
+
 .hero-tags{
-   display: none;
+    display: none;
+    transform: rotate(-90deg);
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.72px;
+}
+.hero-date{
+    user-select: none;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 84px;
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+}
+.hero-date p:nth-child(2){
+    content: "";
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 1.5px;
+    background-color: var(--accentcolor);
+    transition:ease-in-out .2s;
+    display: block;
+}
+.hero-scroll{
+    position: relative;
+    width: 1712px;
+    padding-inline: 16px;
+    margin-inline: auto;
+}
+.scroll{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    position: absolute;
+    right:0;
+    align-items: center;
+    justify-content: center;
+}
+.scroll-txt{
+    color: var(--accentcolor);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+.about{
+    padding-top: 120px;
+    padding-bottom: 136px;
+    /* opacity: 0.5; */
+    background-image:url(../imgs/G.png), url(../imgs/aboutbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:391px 415px, cover;
+}
+.about-container{
+    display: flex;
+}
+.about-title{
+    color: var(--DCCA87, #DCCA87);
+text-align: right;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: "Cormorant Upright";
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 83.2px */
+letter-spacing: 1.92px;
+text-transform: capitalize;
 }
