@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 :root{
     --white:#FFF;
     --background:#0C0B08;
@@ -160,7 +163,8 @@ img{
 }
 .hero-button{
     font-family: "Cormorant Upright", serif;
-    padding: 8px 32px;
+    /* padding: 8px 32px; */
+    padding: 11px 35px;
     background-color: var(--accentcolor);
     color: var(--background);   
     font-size: 16px;
