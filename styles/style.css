@@ -164,7 +164,7 @@ img{
 .hero-button{
     font-family: "Cormorant Upright", serif;
     /* padding: 8px 32px; */
-    padding: 11px 35px;
+    padding:15px 34px;
     background-color: var(--accentcolor);
     color: var(--background);   
     font-size: 16px;
@@ -885,6 +885,10 @@ img{
 width: 412px;
 cursor: pointer;
 }
+.blog-item:hover{
+    transform: translateY(-20px);
+    transition: ease-in-out .3s;
+}
 .blog-content{
     display: flex;
     flex-direction: column;
@@ -990,7 +994,7 @@ cursor: pointer;
 .inst-button{
     border: none;
     cursor: pointer;
-    padding: 8px 32px;
+    padding:12px 35px;
     color: var(--background);
     background-color: var(--accentcolor);
     font-family: "Cormorant Upright";
@@ -1004,18 +1008,35 @@ cursor: pointer;
     gap: 64px;
 }
 .inst-images ul{
+    position: relative;
     display: flex;
     gap: 32px;
     overflow: hidden;
 }
+.inst-images ul li{
+    position: relative;
+}
 .inst-img{
-    cursor: pointer;
+    position: relative;
     border: 2px solid rgba(220, 202, 135, 0.20);
     background-image:linear-gradient(208deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%), url(../imgs/uinstagram.png);
     background-size: cover, contain;
     background-repeat: no-repeat;
     background-position: center;
 }
+.inst-sec{
+    opacity: 0.3;
+}
+.inst-inst{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* .inst-img:hover{
+    transition: ease-in-out .2s;
+    opacity: 0.3;
+} */
 .letter{
     position: relative;
 }

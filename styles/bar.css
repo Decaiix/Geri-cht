@@ -52,7 +52,7 @@ img{
     padding-block: 32px;
 }
 .header-connect{
-    background-image: url(../imgs/barmenubg.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0,0, 0.2)), url(../imgs/barmenubg.jpg);
     background-repeat: no-repeat;
 }
 .logo-link{
@@ -247,3 +247,600 @@ img{
     border: none;
     cursor: pointer;
  }
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 79px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0,0, 0.4)),url(../imgs/aboutbackg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .container {
+    display: flex;
+    gap: 100px;
+    align-items: flex-end;
+}
+ .about-sub-title{
+    margin-top: 40px;
+    margin-bottom: 8px;
+    color: var(--white);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3; 
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+ }
+ .about-title{
+    margin-top: 8px;
+    margin-bottom: 32px;
+    width: 614px;
+    color: var(--accentcolor);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+ }
+ .about-text{
+    margin-bottom: 32px;
+    width: 523px;
+    color: var(--lorem-col);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+ }
+ .about-button{
+    border: none;
+    background-color:var(--accentcolor) ;
+    padding: 8px 32px;
+    cursor: pointer;
+    color: var(--background);
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+ }
+ .poison{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0,0, 0.5)),;
+    opacity: .99;
+    padding-top: 162px;
+    padding-bottom: 142px;
+    background-color: var(--background);
+ }
+ .poison-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 64px;
+ }
+ .poison-content p{
+    color: var(--white);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+ }
+ .poison-content h2{
+    color: var(--accentcolor);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+ }
+ .poison-images ul{
+    display: flex;
+    gap: 32px;
+ }
+ .poison-images ul li{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+ }
+ .poison-img{
+    position: relative;
+    border: 1px solid #dcca873b;
+ }
+  .poison-img:hover{
+    transition: ease-in-out .15s;
+    opacity: .5;
+ }
+ .poison-hover-text{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--white);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: ease-in-out .2s;
+ }
+ .poison-hover-text:hover{
+    opacity: .7;
+ }
+
+ .hhours{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.3)),url(../imgs/hhow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+ }
+ .hhours .container h2 {
+    color: var(--accentcolor);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 128px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 3.84px;
+    text-transform: capitalize;
+ }
+ .hhours .container p{
+    color: var(--white);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+ }
+
+ .today-menu{
+    background-image: url(../imgs/logoimg.png);
+    background-repeat: no-repeat;
+    background-size: 146px;
+    background-position: 90% 7%;
+    background-color: var(--background);
+    padding-block: 152px;
+ }
+ .tm-content{
+    display: flex;
+    gap: 32px;
+ }
+ .tm-top{
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+ }
+ .tm-sub-title{
+    color: var(--white);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+ }
+ .tm-top-title{
+    color: var(--accentcolor);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.3; 
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+ }
+ .tm-title{
+    text-align: center;
+    margin-bottom: 48px;
+    color: var(--FFFFFF, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 1.8px;
+    text-transform: capitalize;
+ }
+ .tm-name{
+    width: 192px;
+    color: var(--accentcolor);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+ }
+ .tm-price{
+    color: var(--white);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+ }
+ .tm-bottle{
+    color: var(--lorem-col);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+ }
+ .tm-txt-content{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+ }
+ .l-tm-list , .r-tm-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .tm-button{
+    font-family: "Cormorant Upright", serif;
+    color: var(--background);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    background-color: var(--accentcolor);
+    border: none;
+    padding: 8px 32px;
+    cursor: pointer;
+ }
+ .tm-button-div{
+    text-align: center;
+    margin-top: 64px;
+ }
+
+.contact{
+    padding-block: 100px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0,0, 0.5)), url(../imgs/contactbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact .container{
+    display: flex;
+    gap: 143px;
+    align-items: center;
+}
+ .top-contact p{
+    margin-bottom: 8px;
+    color: var(--white);
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+ }
+ .top-contact h2{
+    margin-top: 8px;
+    margin-bottom: 64px;
+    color: var(--accentcolor);
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+ }
+ .contact-text{
+    color: var(--lorem-col);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    margin-bottom: 32px;
+ }
+ .contact-sub-title{
+    color: var(--accentcolor);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+ }
+ .contact-hours{
+    margin-bottom: 16px;
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+ }
+ .contact-content{
+    margin-bottom: 64px;
+ }
+ .hours-fst{
+    margin-bottom: 16px;
+ }
+ .contact-button{
+    cursor: pointer;
+    font-family: "Cormorant Upright", serif;
+    color: var(--background);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    padding: 8px 32px;
+    background-color: var(--accentcolor);
+    border: none;
+ }
+ .l-contact{
+    align-items: center;
+ }
+
+ .header-img{
+    position: relative;
+}
+.r-contact{
+    position: relative;
+    z-index: 1;
+}
+.r-contact::after{
+    position: absolute;
+    content: "";
+    width: 435px;
+    height:435px ;
+    background-color: var(--accentcolor);
+    bottom: -20px;
+    left: -20px;
+    z-index: -1;
+    }
+.r-contact::before{
+        position: absolute;
+        content: "";
+        width: 435px;
+        height:435px ;
+        background-color: var(--accentcolor);
+        top: -20px;
+        right: -20px;
+        z-index: -1;
+}
+
+.footer-connected{
+    padding-top: 140px;
+}
+.letter{
+    position: relative;
+}
+.footer-top-up{
+    cursor: pointer;
+    position: absolute;
+    right: 120px;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer-top-up{
+    color: var(--accentcolor);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75; 
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+}
+.letter-form{
+    padding: 64px 252px;
+    border: 1px solid rgba(220, 202, 135, 0.20);
+    background: var(--background);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70);
+}
+.letter-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.letter-sub-title{
+    margin-bottom: 8px;
+    color: var(--white);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+.letter-title{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: var(--accentcolor);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.3; 
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+.letter-bt{
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+}
+.letter-container form{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.letter-input{
+    padding-block: 16px;
+    padding-left: 19px;
+    padding-right: 10px;
+    width: 635px;
+    background-color: transparent;
+    border: 1px solid var(--select-border);
+    color: var(--lorem-col);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+}
+.letter-input:focus{
+    outline: 1px solid var(--select-border);
+}
+.letter-button{
+    border: none;
+    cursor: pointer;
+    padding: 8px 32px;
+    color: var(--background);
+    background-color: var(--accentcolor);
+    font-family: "Cormorant Upright";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+}
+footer{
+    padding-bottom: 114px;
+}
+.footer-container{
+    width: fit-content;
+    padding-inline: 16px;
+    margin-inline: auto;
+}
+.footer-lists{
+    display: flex;
+}
+.fst-footer-list{
+    margin-top: 130px;
+    text-align: center;
+    margin-right: 126px;
+    align-items: center;
+}
+.fst-footer-list h3{
+    margin-bottom: 24px;
+    color: var(--select-border);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+.fst-footer-list ul li{
+    color: var(--lorem-col);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+}
+.fst-footer-item{
+    margin-bottom: 8px;
+}
+
+.sec-footer-list{
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 226px;
+}
+
+.sec-footer-list h2{
+    margin-bottom: 32px;
+    color: var(--accentcolor);
+    font-size: 64px;
+    font-weight: 700;   
+    line-height: 1.3;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+}
+.sec-footer-list p{
+    margin-bottom: 16px;
+    width: 438px;
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+}
+.footer-images{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.footer-social{
+    display: flex;
+    gap: 16px;
+}
+.footer-social img{
+    cursor: pointer;
+}
+.thd-footer-list{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.thd-footer-list h3{
+    color: var(--select-border);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+}
+.thd-footer-list p{
+    width: 168px;
+    color: var(--lorem-col);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+}
+.thd-footer-list{
+    margin-top: 130px;
+}
+
+.bottom-footer{
+    margin-top: 84px;
+    color: var(--lorem-col);
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+}
+
+.footer-connected{    
+    background-image: url(../imgs/aboutbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
