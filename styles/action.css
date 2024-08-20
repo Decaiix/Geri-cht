@@ -218,7 +218,7 @@ img{
     margin-bottom: 32px;
 }
 .rules-text{
-    color: var(--white);
+    color: var(--blogswhite);
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -284,6 +284,10 @@ img{
 }
 .attempts-imgs{
     margin-top: 32px;
+    margin-bottom: 32px;
+}
+.attempts-button{
+    text-align: center;
 }
 .attempts-text{
     text-align: center;
@@ -308,7 +312,8 @@ img{
     gap: 110px;
     align-items: center;
 }
-.attempts-imgs h4{
+.gallery-text{
+    margin-bottom: 64px;
     text-align: center;
     color: var(--accentcolor);
     font-size: 44px;
@@ -362,7 +367,18 @@ img{
     border-radius: 2px;
     z-index: 1;
 }
-
+.finally-button{
+    font-family: "Cormorant Upright", serif;
+    padding: 8px 32px;
+    background-color: var(--accentcolor);
+    color: var(--background);   
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    border: none;
+    cursor: pointer;
+}
 .letter{
     position: relative;
 }
