@@ -1,0 +1,122 @@
+*,*:after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --white:#FFF;
+    --background:#0C0B08;
+    --accentcolor:#DCCA87;
+    --lorem-col:#AAA;
+    --aboutbackground: #040404;
+    --select-border:#F5EFDB;
+    --blogswhite:#FAFAFA;
+    --blogsborder:rgba(220, 202, 135, 0.20);
+}
+            /*fonts*/
+        /* font-family: "Open Sans", sans-serif;
+         font-family: "Cormorant Upright", serif;*/
+        body{
+            font-family: "Cormorant Upright", serif;
+        }
+.container{
+    width: 1432px;
+    padding-inline: 16px;
+    margin-inline: auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+img{
+    display: block;
+}
+
+.header-container{
+    /* width: 1712px; */
+    width:fit-content;
+    padding-inline: 16px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+}
+.header{
+    padding-block: 32px;
+    background-color: var(--background);
+}
+.logo-link{
+    margin-right: 437px;
+    color: var(--white);
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 1.76px;
+    text-transform: uppercase;
+    transition: ease-in-out .2s;
+}.logo-link:hover{
+    color: var(--accentcolor);
+}
+.nav{
+    margin-right: 271px;
+}
+.nav-list{
+    display: flex;
+    gap: 32px;
+}
+.nav-link{
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    letter-spacing: 0.64px;
+    transition: ease-in-out 0.2s;
+}
+.nav-link:hover{
+    color: var(--accentcolor);
+}
+.nav-link::after{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 1.5px;
+    background-color: var(--accentcolor);
+    transition:ease-in-out .2s;
+    display: block;
+}.nav-link:hover::after{
+    width: 95%;
+}
+.promotion{
+    color: var(--accentcolor);
+    font-weight: 600;
+}
+.r-nav{
+    align-items: center;
+}
+.r-nav-list{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.r-nav-link{
+    color: var(--white);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+    transition: ease-in-out .2s;
+}.r-nav-link:hover{
+    color: var(--accentcolor);
+}

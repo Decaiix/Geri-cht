@@ -98,6 +98,10 @@ img{
 }.nav-link:hover::after{
     width: 95%;
 }
+.promotion{
+    color: var(--accentcolor);
+    font-weight: 600;
+}
 .r-nav{
     align-items: center;
 }
@@ -147,6 +151,7 @@ img{
     width: 100%;
 }
 .hero-scroll{
+    user-select: none;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -163,8 +168,6 @@ img{
     letter-spacing: 0.64px;
     text-transform: uppercase;
 }
-
-
 .booking{
     background-color: var(--aboutbackground);
     padding-block: 157px;
