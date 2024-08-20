@@ -740,7 +740,7 @@ img{
     text-transform: capitalize;
     margin-bottom: 4px;
 }
-.customer p{
+.customer-work{
     color: var(--select-border);
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
