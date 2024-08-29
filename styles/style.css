@@ -130,10 +130,8 @@ img{
     padding-inline: 16px;
     margin-inline: auto;
     display: flex;
+    gap: 180px;
     align-items: center;
-}
-.l-hero{
-    margin-right: 180px;
 }
 .hero-subtitle{
     color: var(--FFFFFF, #FFF);
@@ -781,6 +779,9 @@ img{
     display: flex;
     gap: 111px;
     align-items: center;
+}
+.awards-left{
+    width: 635px;
 }
 .awards-top{
     margin-bottom: 64px;

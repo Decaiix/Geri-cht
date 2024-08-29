@@ -202,7 +202,7 @@ img{
 }
 .promo-rules .container{
     display: flex;
-    gap: 100px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -265,14 +265,12 @@ img{
     align-items: center;
 }
 .attempts-img{
-    width: 430px;
+    width:100%;
 }
-/* .attempst-item{
+.attempts-item{
     flex-basis: calc((100% - 80px) / 3);
 }
-.attempts-img{
-    width:100%;
-} */
+
 .winners-text{
     text-align: center;
     color: var(--select-border);
